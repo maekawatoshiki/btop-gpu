@@ -91,7 +91,7 @@ jobs:
         run: apk add --no-cache coreutils git make tar zstd
 
       - name: Fix - Unsafe repository stop
-        run: git config --global --add safe.directory /__w/btop/btop
+        run: git config --global --add safe.directory /__w/btop-gpu/btop-gpu
 
       - name: Checkout source
         uses: actions/checkout@v3
